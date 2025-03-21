@@ -3440,7 +3440,7 @@ body {
                 <div class="${statusBadgeClass} px-2 py-1 rounded text-xs font-medium mb-1">
                   ${statusText}
                 </div>
-                <div class="flex mb-1">
+                <div class="flex mb-1" style="display: none;">
                   <select class="status-select text-xs border border-gray-200 rounded p-1" data-referral-id="${referral.id}">
                     <option value="pendiente" ${referral.status === 'pendiente' ? 'selected' : ''}>Pendiente</option>
                     <option value="en_comunicacion" ${referral.status === 'en_comunicacion' ? 'selected' : ''}>En Comunicación</option>
